@@ -2,10 +2,6 @@
 
 This is a simple weather application that allows users to check the current weather conditions for any city. The app fetches real-time weather data using the OpenWeather API and displays details like temperature, wind speed, humidity, and visibility. The UI is designed to be clean and user-friendly.
 
-## Demo
-
-![Weather App Screenshot](screenshot.png) <!-- Add a screenshot of your app here -->
-
 ## Features
 
 - **City-based Search**: Users can enter a city name to view the current weather.
