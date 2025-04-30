@@ -116,3 +116,88 @@ body {
 .elem p {
   font-size: 13px;
 }
+@media (max-width: 1290px) {
+  /* Styling for the search input and button */
+  .input input {
+    width: 85%;
+    height: 36px;
+    border-radius: 8px;
+    padding: 7px;
+  }
+  .input button {
+    width: 13%;
+    height: 36px;
+    border-radius: 8px;
+  }
+  /* Styling for the temperature and weather description */
+  .temp h1 {
+    font-size: 90px;
+  }
+}
+@media (max-width: 900px) {
+  .temp {
+    width: 100%;
+    height: 15vh;
+    /* background-color: salmon; */
+    text-align: center;
+  }
+  .bottom-info {
+    height: 15vh;
+    gap: 7px;
+  }
+  
+  .elem i {
+    font-size: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    margin: 120px 20%;
+    width: 50vw;
+  }
+.city h3 {
+    font-size: 35px;
+  }
+  .city span {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+  .temp h1 {
+    font-size: 80px;
+  }
+  .elem i {
+    font-size: 20px;
+  }
+  .elem h5 {
+    font-size: 10px;
+  }
+  .elem p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    margin: 80px 5%;
+    padding: 3vw;
+    width: 90vw;
+    gap: 16px;
+    border-radius: 14px;
+  }
+  
+  /* Styling for the search input and button */
+  .input input {
+    width: 85%;
+    height: 36px;
+    border-radius: 8px;
+    padding: 7px;
+  }
+  .input button {
+    width: 13%;
+    height: 36px;
+    border-radius: 8px;
+  }
+  /* Styling for the temperature and weather description */
+  .temp h1 {
+    font-size: 90px;
+  }
+}
